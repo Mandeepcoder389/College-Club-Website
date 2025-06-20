@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Club - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/jpg" href="../assets/images/favicon.png">
+</head>
+<body class="bg-dark text-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+        <i class="bi bi-gem" style="font-size: 1.7rem; color: #0d6efd;"></i>
+        <span style="font-family: 'Montserrat', Arial, sans-serif; font-weight: 900; font-size: 2rem; letter-spacing: 1.5px; background: linear-gradient(90deg, #0d6efd 0%, #20c997 50%, #6610f2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; -webkit-text-fill-color: transparent;">College Club</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="members.html">Members</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Animated Hero Section -->
+  <section class="hero-section position-relative overflow-hidden py-5 text-center">
+    <div class="hero-bg-shapes"></div>
+    <div class="container position-relative z-1">
+      <h1 class="display-3 fw-bold mb-3 animate-hero">Welcome to <span class="text-primary">College Club</span></h1>
+      <p class="lead mb-4 animate-hero">Empowering students, celebrating achievements, and building a vibrant campus community.</p>
+      <a href="about.html" class="btn btn-primary btn-lg animate-hero">Learn More</a>
+    </div>
+  </section>
+
+  <!-- What We Do Section -->
+  <section class="py-5 bg-gradient-2">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5">What We Do ?</h2>
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <div class="feature-card p-4 h-100">
+            <div class="icon mb-3"><i class="bi bi-calendar-event display-5"></i></div>
+            <h5>Events & Workshops</h5>
+            <p>We organize tech talks, cultural fests, and hands-on workshops to foster learning and fun.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card p-4 h-100">
+            <div class="icon mb-3"><i class="bi bi-people-fill display-5"></i></div>
+            <h5>Community Building</h5>
+            <p>We connect students, alumni, and mentors to create a supportive and inclusive environment.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card p-4 h-100">
+            <div class="icon mb-3"><i class="bi bi-award-fill display-5"></i></div>
+            <h5>Achievements</h5>
+            <p>We celebrate and showcase the achievements of our members and the club as a whole.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest News Carousel -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">Latest News</h2>
+      <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner rounded-4 shadow">
+          <div class="carousel-item active">
+            <div class="p-4 bg-secondary text-light rounded-4 shadow-lg position-relative">
+              <span class="badge bg-primary position-absolute top-0 start-0 m-3"><i class="bi bi-megaphone"></i> Announcement</span>
+              <h5 class="mt-4"><i class="bi bi-calendar-event me-2"></i>Annual Fest Announced!</h5>
+              <p>Get ready for the biggest celebration of the year. Stay tuned for more details.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="p-4 bg-secondary text-light rounded-4 shadow-lg position-relative">
+              <span class="badge bg-success position-absolute top-0 start-0 m-3"><i class="bi bi-laptop"></i> Workshop</span>
+              <h5 class="mt-4"><i class="bi bi-code-slash me-2"></i>Web Dev Workshop Success</h5>
+              <p>Our recent workshop saw 100+ participants building their first websites.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="p-4 bg-secondary text-light rounded-4 shadow-lg position-relative">
+              <span class="badge bg-info position-absolute top-0 start-0 m-3"><i class="bi bi-people"></i> Community</span>
+              <h5 class="mt-4"><i class="bi bi-person-plus me-2"></i>New Members Welcomed</h5>
+              <p>We are excited to welcome new faces to our club family this semester!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="p-4 bg-secondary text-light rounded-4 shadow-lg position-relative">
+              <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-3"><i class="bi bi-trophy"></i> Achievement</span>
+              <h5 class="mt-4"><i class="bi bi-award me-2"></i>Club Wins Coding Marathon</h5>
+              <p>Congratulations to our team for winning the inter-college coding marathon!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="p-4 bg-secondary text-light rounded-4 shadow-lg position-relative">
+              <span class="badge bg-danger position-absolute top-0 start-0 m-3"><i class="bi bi-mic"></i> Event</span>
+              <h5 class="mt-4"><i class="bi bi-mic-fill me-2"></i>Guest Lecture: AI Trends</h5>
+              <p>Industry expert shares insights on the future of Artificial Intelligence.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="p-4 bg-secondary text-light rounded-4 shadow-lg position-relative">
+              <span class="badge bg-secondary position-absolute top-0 start-0 m-3"><i class="bi bi-camera"></i> Gallery</span>
+              <h5 class="mt-4"><i class="bi bi-camera2 me-2"></i>Photo Gallery Updated</h5>
+              <p>Check out the latest photos from our recent events in the gallery section.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats/Impact Section -->
+  <section class="py-5 bg-gradient-3">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-6 col-md-3 mb-4 mb-md-0">
+          <div class="stat-card p-4 rounded-4">
+            <div class="display-5 fw-bold text-primary counter" data-target="100">0+</div>
+            <div>Members</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-4 mb-md-0">
+          <div class="stat-card p-4 rounded-4">
+            <div class="display-5 fw-bold text-primary counter" data-target="50">0+</div>
+            <div>Events</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card p-4 rounded-4">
+            <div class="display-5 fw-bold text-primary counter" data-target="20">0+</div>
+            <div>Workshops</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card p-4 rounded-4">
+            <div class="display-5 fw-bold text-primary counter" data-target="10">0+</div>
+            <div>Awards</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Us Call-to-Action -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-3">Ready to Join the Club?</h2>
+      <p class="mb-4">Become part of a vibrant community and unlock new opportunities!</p>
+      <a href="join.html" class="btn btn-lg btn-primary shadow-lg px-5 py-3" target="_blank" rel="noopener">Join Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-4 mt-auto">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-md-4 text-md-start text-center">
+          <h6 class="fw-bold mb-2">Contact Us</h6>
+          <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i> Collage more, Kolkata, West Bengal,700102</p>
+          <p class="mb-1"><i class="bi bi-envelope-fill me-2"></i> <a href="mailto:collageclub@yahoo.in" class="text-primary">collageclub@yahoo.in</a></p>
+          <p class="mb-0"><i class="bi bi-telephone-fill me-2"></i> +91 98564 72310</p>
+        </div>
+        <div class="col-md-4 text-center my-3 my-md-0">
+          <h6 class="fw-bold mb-2">Quick Links</h6>
+          <a href="index.html" class="text-light me-3">Home</a>
+          <a href="about.html" class="text-light me-3">About</a>
+          <a href="events.html" class="text-light me-3">Events</a>
+          <a href="members.html" class="text-light me-3">Members</a>
+          <a href="gallery.html" class="text-light me-3">Gallery</a>
+          <a href="contact.html" class="text-light">Contact</a>
+        </div>
+        <div class="col-md-4 text-md-end text-center">
+          <h6 class="fw-bold mb-2">Follow Us</h6>
+          <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+      <hr class="bg-secondary my-3" />
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <p class="mb-0 small">&copy; 2025 College Club. All rights reserved.</p>
+        <span class="small">Designed & Developed by the College Club Web Team</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../main.js"></script>
+</body>
+</html> 
